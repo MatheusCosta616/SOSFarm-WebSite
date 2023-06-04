@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,23 @@
     <link rel="stylesheet" href="./css/home.css">
     <title>SOS Farm</title>
 </head>
+
 <body>
+    <!--Menu-->
     <div class="menu">
-    <div class="menuLogo">
-        <center><img class="logo" src="./img/Logo.png" alt="logo do site"></center>
-        <a href="./secoes/cadastro.html" id="login">Login</a>
+        <div class="menuLogo">
+            <center><img class="logo" src="./img/Logo.png" alt="logo do site"></center>
+            <a href="./secoes/cadastro.html" id="login">Login</a>
+        </div>
+        <div class="subMenu">
+            <a href="./index.html" class="listaMenu">Home</a>
+            <a href="./secoes/tecnologias.html" class="listaMenu">Tecnologias</a>
+            <a href="./secoes/atuacao.html" class="listaMenu">Onde atuamos</a>
+            <a href="./secoes/transformacao.html" class="listaMenu">Transformações</a>
+        </div>
     </div>
-    <div class="subMenu">
-        <a href="./index.html" class="listaMenu">Home</a>
-        <a href="./secoes/tecnologias.html" class="listaMenu">Tecnologias</a>
-        <a href="./secoes/objetivos.html" class="listaMenu">Obejetivos</a>
-        <a href="./secoes/atuacao.html" class="listaMenu">Onde atuamos</a>
-        <a href="./secoes/transformacao.html" class="listaMenu">Transformações</a>
-    </div>
-</div>
     <div class="content">
-    <!--Conteúdo do site-->
+        <!--Conteúdo do site-->
 
         <div class="slider">
             <!--Conteúdo do Slider-->
@@ -34,10 +36,10 @@
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <div class="slide first">
-                    <img src="./img/BANNER1.png" alt="Banner container"/>
+                    <img src="./img/BANNER1.png" alt="Banner container" />
                 </div>
                 <div class="slide">
-                    <img src="./img/BANNER2.png" alt="Banner pessoa caida recebendo ajuda"/>
+                    <img src="./img/BANNER2.png" alt="Banner pessoa caida recebendo ajuda" />
                 </div>
             </div>
 
@@ -55,37 +57,45 @@
         </div>
 
         <!--Conteúdo-->
-        <div class="textoIncial">
+        <div class="box" id="textoIncial">
             <br>
-            <p id="txtIncial">Bem-vindo à <j class="SOSFARM">SOS Farm</j>! Somos uma empresa dedicada a fornecer soluções inovadoras para combater a 
-            falta de acesso a alimentos frescos e saudáveis em comunidades carentes.</p>
+            <p id="txtIncial">Bem-vindo à <j class="SOSFARM">SOS Farm</j>! Somos uma empresa dedicada a fornecer
+                soluções inovadoras para combater a
+                falta de acesso a alimentos frescos e saudáveis em comunidades carentes.</p>
         </div>
         <img id="hortaMenu" src="./img/hortaMenu.jpg" alt="horta">
     </div>
-    <div class="textoIncial2">
+    <div class="box" id="textoIncial2">
         <br>
-        <p id="txtIncial">Nossa ideia é desenvolver micro fazendas sustentáveis e autossustentáveis, utilizando tecnologia 
+        <p id="txtIncial">Nossa ideia é desenvolver micro fazendas sustentáveis e autossustentáveis, utilizando
+            tecnologia
             de inteligência artificial em espaços urbanos reduzidos. </p>
     </div>
     <img src="./img/pessoasCultivando.jpg" alt="Pesssoas Cultivando" id="pessoasCultivando">
-    <div class="textoIncial3">
+    <div class="box" id="textoIncial3">
         <br>
-        <p id="txtIncial">Oferecemos uma fonte constante de alimentos nutritivos, promovendo 
+        <p id="txtIncial">Oferecemos uma fonte constante de alimentos nutritivos, promovendo
             o desenvolvimento sustentável e gerando emprego.</p>
     </div>
-    <div class="boxCaixaIbj">
+    <br>
+    <h1>Objetivos</h1>
+    <div class="box" id="boxCaixaIbj">
         <br>
-        <p id="txtIncial">Nosso objetivo é fornecer alimentos frescos e saudáveis, além de gerar emprego e renda nas 
+        <p id="txtIncial">Nosso objetivo é fornecer alimentos frescos e saudáveis, além de gerar emprego e renda nas
             comunidades carentes. </p>
     </div>
-    <div class="boxCaixa2">
-        <p id="txtIncial">Através das micro fazendas sustentáveis da SOS Farm, buscamos oferecer 
-            uma solução confiável para a fome, promovendo o desenvolvimento sustentável e construindo um 
+    <div class="box" id="boxCaixa2">
+        <p id="txtIncial">Através das micro fazendas sustentáveis da SOS Farm, buscamos oferecer
+            uma solução confiável para a fome, promovendo o desenvolvimento sustentável e construindo um
             futuro melhor.</p>
     </div>
     <footer class="rodape">
-        <center><p>©SOS FARM </p><p>System Optimized Sustentable Farms</p></center>
+        <center>
+            <p>©SOS FARM </p>
+            <p>System Optimized Sustentable Farms</p>
+        </center>
     </footer>
     <script src="./js/home.js"></script>
 </body>
+
 </html>

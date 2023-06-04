@@ -1,55 +1,51 @@
-.textoIncial {
+#textoIncial {
     position: absolute;
     width: 500px;
     height: 193px;
     left: 120px;
     margin-top: 30px;
-    background: #DAEDB3;
     border-radius: 41px;
     text-align: center;
 }
 
-.textoIncial2{
+#textoIncial2{
     position: absolute;
     width: 500px;
     height: 193px;
     left: 120px;
     margin-top: 300px;
-    background: #DAEDB3;
+    
     border-radius: 41px;
     text-align: center;
     
 }
 
-.textoIncial3{
+#textoIncial3{
     position: absolute;
     width: 500px;
     height: 193px;
     left: 830px;
     margin-top: -280px;
-    background: #DAEDB3;
     border-radius: 41px;
     text-align: center;
 }
 
-.boxCaixaIbj{
+#boxCaixaIbj{
     position: absolute;
     width: 500px;
     height: 193px;
     left: 830px;
     margin-top: 100px;
-    background: #DAEDB3;
     border-radius: 41px;
     text-align: center;
 }
 
-.boxCaixa2 {
+#boxCaixa2 {
     position: absolute;
     width: 500px;
     height: 180px;
     left: 100px;
     margin-top: 100px;
-    background: #DAEDB3;
     border-radius: 41px;
     text-align: center;
     padding: 10px;
@@ -135,9 +131,6 @@
     margin-left: -25%;
 }
 
-.rodape{
-    margin-top: 400px;
-}
 
 /*.navigation-auto{
     border: 2px solid #00B140;
