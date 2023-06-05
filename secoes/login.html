@@ -6,28 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/menu.css">
-    <title>SOS Farm</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <title>SOS Farm - Login</title>
 </head>
 <body>
-    <!--Menu-->
     <div class="menu">
-    <div class="menuLogo">
-        <center><img class="logo" src="../img/Logo.png" alt="logo do site"></center>
-        <a href="./login.html" id="login">Login</a>
-    </div>
-    <div class="subMenu">
-        <a href="../index.html" class="listaMenu">Home</a>
-        <a href="../secoes/tecnologias.html" class="listaMenu">Tecnologias</a>
-        <a href="../secoes/atuacao.html" class="listaMenu">Onde atuamos</a>
-        <a href="../secoes/transformacao.html" class="listaMenu">Transformações</a>
-    </div>
-</div>
-cadastro
-    <div class="content">
+        <div class="menuLogo">
+            <center><img class="logo" src="../img/Logo.png" alt="logo do site"></center>
+            <a href="./login.html" id="login">Login</a>
+        </div>
+        <div class="subMenu">
+            <a href="../index.html" class="listaMenu">Home</a>
+            <a href="../secoes/tecnologias.html" class="listaMenu">Tecnologias</a>
+            <a href="../secoes/atuacao.html" class="listaMenu">Onde atuamos</a>
+            <a href="../secoes/transformacao.html" class="listaMenu">Transformações</a>
         </div>
     </div>
+
+    <div class="content">
+        <!-- Formulário -->
+        <div id="formulario">
+            <h2>Login</h2>
+            <form>
+                <label for="email">Nome</label>
+                <input type="text" id="nome" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+
+                <input id="login" type="button" value="Entrar" onclick="realizarLogin()">
+            </form>
+            <p id="naoPossui">Não possui uma conta? <a id='click' href="./cadastro.html">CLIQUE AQUI</a></p>
+        </div>
+    </div>
+
     <footer class="rodape">
-        <center><p>©SOS FARM </p><p>System Optimized Sustentable Farms</p></center>
+        <center><p>©SOS FARM </p><p>System Optimized Sustainable Farms</p></center>
     </footer>
+
+    <script src="../js/login.js"></script>
 </body>
 </html>

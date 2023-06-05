@@ -1,8 +1,30 @@
 .rodape{
-    margin-top: 1000px;
+    margin-top: 280px;
+}
+
+#titulos{
+    margin-left: 600px;
 }
 
 #box3{
-    margin-top:800px;
+    margin-top:50px;
+    margin-left: 370px;
 }
 
+#areaPobre{
+    margin-left: 760px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+#box2{
+    margin-top: 60px;
+    margin-left: -60px;
+}
+
+#caraCaido{
+    border-radius: 30px;
+    margin-left: 50px;  
+    width: 600px;
+    margin-top: -40px;
+}

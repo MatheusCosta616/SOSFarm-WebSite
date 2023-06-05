@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.rodape {
+  margin-top: 900px;
+}
+
+#formulario {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-top: -50px;
+  margin-left: 330px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  background: #5A745C;
+  border-radius: 73px;
+  width: 800px;
+}
+
+#formulario h2 {
+  text-align: center;
+  font-family: 'Economica';
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+#formulario form {
+  font-weight: 1000;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 700px;
+}
+
+#formulario label {
+  font-size: 30px;
+  text-align: center;
+  gap: -10px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="tel"],
+#formulario input[type="email"],
+#formulario input[type="password"] {
+  gap: 10px;
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: #374834;
+  color: #FFF;
+  font-family: 'Francois One';
+}
+
+#formulario #cadastro {
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  height: 63px;
+  left: 260px;
+  margin-left: 60px;
+  margin-top: 520px;
+  background: #374834;
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 57px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+#jaPossui {
+  font-size: 30px;
+  margin-top: 130px;;
+  font-family: 'Economica';
+}
+
+#click {
+  color: #DAEDB3;
+  text-decoration: none;
+}
+
+.campo-invalido {
+  border: 2px solid red;
+}
+
