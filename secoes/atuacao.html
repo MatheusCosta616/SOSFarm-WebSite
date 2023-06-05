@@ -15,7 +15,8 @@
     <div class="menu">
     <div class="menuLogo">
         <center><img class="logo" src="../img/Logo.png" alt="logo do site"></center>
-        <a href="./login.html" id="login">Login</a>
+        <a href="./secoes/login.html" id="login">Login</a>
+        <button id="dark-mode-toggle" onclick="toggleDarkMode()">Alternar Modo Escuro</button>
     </div>
     <div class="subMenu">
         <a href="../index.html" class="listaMenu">Home</a>
@@ -29,23 +30,24 @@
         <div class="box" id="box1">
             <br>
             <br>
-            <p id="txtIncial">Atuamos em regiões urbanas com pouco desenvolvimento e alta pobreza.</p>
+            <p class ='txtIncial' id="txtIncial">Atuamos em regiões urbanas com pouco desenvolvimento e alta pobreza.</p>
         </div>
         <img src="../img/moradira.png" alt="Moradia precaria" id="areaPobre">
         <div class="box" id="box2">
             <br>
-            <p id="txtIncial">Nossas micro fazendas se adaptam a espaços reduzidos, permitindo instalação em áreas urbanas 
+            <p class ='txtIncial' id="txtIncial">Nossas micro fazendas se adaptam a espaços reduzidos, permitindo instalação em áreas urbanas 
                 como periferias e regiões de baixa renda. </p>
         </div>
         <img src="../img/caraCaido.jpg" alt="mendigo caido" id="caraCaido">
         <div class="box" id="box3">
             <br>
-            <p id="txtIncial">Queremos levar nosso impacto diretamente às pessoas que mais precisam, proporcionando acesso 
+            <p class ='txtIncial' id="txtIncial">Queremos levar nosso impacto diretamente às pessoas que mais precisam, proporcionando acesso 
                 a alimentos frescos e saudáveis.</p>
         </div>
     </div>
     <footer class="rodape">
         <center><p>©SOS FARM </p><p>System Optimized Sustentable Farms</p></center>
     </footer>
+    <script src="../js/darkMode.js"></script>
 </body>
 </html>

@@ -3,3 +3,8 @@ body {
     padding: 0;
     background: #9CC2A0;
 }
+
+body.dark-mode {
+    background: #262626;
+    color: #ffffff;
+  }

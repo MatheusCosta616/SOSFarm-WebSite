@@ -4,7 +4,7 @@ function enviarFormulario() {
     const emailInput = document.getElementById('email');
     const senhaInput = document.getElementById('senha');
     const confPassInput = document.getElementById('confPass');
-  
+
     let nome = nomeInput.value.toLowerCase();
     const telefone = telefoneInput.value;
     const email = emailInput.value;

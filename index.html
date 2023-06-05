@@ -15,8 +15,9 @@
     <!--Menu-->
     <div class="menu">
         <div class="menuLogo">
-            <center><img class="logo" src="./img/Logo.png" alt="logo do site"></center>
-            <a href="./secoes/cadastro.html" id="login">Login</a>
+            <center><img class="logo" src="../img/Logo.png" alt="logo do site"></center>
+            <a href="./secoes/login.html" id="login">Login</a>
+            <button id="dark-mode-toggle" onclick="toggleDarkMode()">Ativar Modo Escuro</button>
         </div>
         <div class="subMenu">
             <a href="./index.html" class="listaMenu">Home</a>
@@ -59,7 +60,7 @@
         <!--Conteúdo-->
         <div class="box" id="textoIncial">
             <br>
-            <p id="txtIncial">Bem-vindo à <j class="SOSFARM">SOS Farm</j>! Somos uma empresa dedicada a fornecer
+            <p class ='txtIncial' id="txtIncial">Bem-vindo à <j class="SOSFARM">SOS Farm</j>! Somos uma empresa dedicada a fornecer
                 soluções inovadoras para combater a
                 falta de acesso a alimentos frescos e saudáveis em comunidades carentes.</p>
         </div>
@@ -67,25 +68,25 @@
     </div>
     <div class="box" id="textoIncial2">
         <br>
-        <p id="txtIncial">Nossa ideia é desenvolver micro fazendas sustentáveis e autossustentáveis, utilizando
+        <p class ='txtIncial' id="txtIncial">Nossa ideia é desenvolver micro fazendas sustentáveis e autossustentáveis, utilizando
             tecnologia
             de inteligência artificial em espaços urbanos reduzidos. </p>
     </div>
     <img src="./img/pessoasCultivando.jpg" alt="Pesssoas Cultivando" id="pessoasCultivando">
     <div class="box" id="textoIncial3">
         <br>
-        <p id="txtIncial">Oferecemos uma fonte constante de alimentos nutritivos, promovendo
+        <p  class ='txtIncial' id="txtIncial">Oferecemos uma fonte constante de alimentos nutritivos, promovendo
             o desenvolvimento sustentável e gerando emprego.</p>
     </div>
     <br>
-    <h1>Objetivos</h1>
+    <h1 id="titulos">Objetivos</h1>
     <div class="box" id="boxCaixaIbj">
         <br>
-        <p id="txtIncial">Nosso objetivo é fornecer alimentos frescos e saudáveis, além de gerar emprego e renda nas
+        <p class ='txtIncial' id="txtIncial">Nosso objetivo é fornecer alimentos frescos e saudáveis, além de gerar emprego e renda nas
             comunidades carentes. </p>
     </div>
     <div class="box" id="boxCaixa2">
-        <p id="txtIncial">Através das micro fazendas sustentáveis da SOS Farm, buscamos oferecer
+        <p class ='txtIncial' id="txtIncial">Através das micro fazendas sustentáveis da SOS Farm, buscamos oferecer
             uma solução confiável para a fome, promovendo o desenvolvimento sustentável e construindo um
             futuro melhor.</p>
     </div>
@@ -95,6 +96,7 @@
             <p>System Optimized Sustentable Farms</p>
         </center>
     </footer>
-    <script src="./js/home.js"></script>
+    <script src="./js/home.js" defer></script>
+    <script src="./js/darkMode.js"></script>
 </body>
 </html>

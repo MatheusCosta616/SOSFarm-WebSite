@@ -84,7 +84,7 @@
 
 #jaPossui {
   font-size: 30px;
-  margin-top: 130px;;
+  margin-top: 130px;
   font-family: 'Economica';
 }
 
@@ -96,4 +96,3 @@
 .campo-invalido {
   border: 2px solid red;
 }
-

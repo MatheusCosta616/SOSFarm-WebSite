@@ -16,6 +16,7 @@
     <div class="menuLogo">
         <center><img class="logo" src="../img/Logo.png" alt="logo do site"></center>
         <a href="./login.html" id="login">Login</a>
+        <button id="dark-mode-toggle" onclick="toggleDarkMode()">Alternar Modo Escuro</button>
     </div>
     <div class="subMenu">
         <a href="../index.html" class="listaMenu">Home</a>
@@ -29,20 +30,20 @@
         <h1 id="titulos">Tecnologias</h1>
         <div class="box" id="box1">
             <br>
-            <p id="txtIncial">Na SOS Farm, utilizamos tecnologias avançadas para criar micro fazendas autossustentáveis em 
+            <p class ='txtIncial' id="txtIncial">Na SOS Farm, utilizamos tecnologias avançadas para criar micro fazendas autossustentáveis em 
                 ambientes internos.</p>
         </div>
         <img id="arduino" src="../img/arduino.png" alt="prototipo em arduino">
         <div class="box" id="box2">
             <br>
-            <p id="txtIncial">Com sistemas inteligentes de cultivo e monitoramento por inteligência 
+            <p class ='txtIncial' id="txtIncial">Com sistemas inteligentes de cultivo e monitoramento por inteligência 
             artificial, produzimos alimentos eficientes e sustentáveis, independentemente do sol ou de 
             recursos externos.</p>
         </div>
         <img id="prototipo" src="../img/prototipo.png" alt="projeto">
         <div class="box" id="box3">
             <br>
-            <p id="txtIncial">Combinamos conhecimentos agrícolas e tecnológicos para entregar um produto 
+            <p class ='txtIncial' id="txtIncial">Combinamos conhecimentos agrícolas e tecnológicos para entregar um produto 
                 de qualidade e impacto positivo.</p>
         </div>
         <img src="../img/projeto3D.jpg" alt="Projeto 3D" id="projeto3D">
@@ -52,5 +53,6 @@
     <footer class="rodape">
         <center><p>©SOS FARM </p><p>System Optimized Sustentable Farms</p></center>
     </footer>
+    <script src="../js/darkMode.js"></script>
 </body>
 </html>
