@@ -58,12 +58,12 @@
   height: 30px;
   border: none;
   border-radius: 10px;
-  background: #374834;
-  color: #FFF;
+  background: white;
+  color: black;
   font-family: 'Francois One';
 }
 
-#formulario #cadastro {
+#cadastro {
   position: absolute;
   border: none;
   border-radius: 5px;
@@ -95,4 +95,9 @@
 
 .campo-invalido {
   border: 2px solid red;
+}
+
+#cadastro.dark-mode{
+  background: white;
+	color: black;
 }

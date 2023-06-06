@@ -21,7 +21,11 @@
     border-radius: 73px;
     width: 800px;
   }
-  
+
+  #formulario.dark-mode {
+    background: #374834;
+    color: #FFF;
+}
   #formulario h2 {
     text-align: center;
     font-family: 'Economica';
@@ -52,19 +56,19 @@
     height: 30px;
     border: none;
     border-radius: 10px;
-    background: #374834;
-    color: #FFF;
+    background: white;
+    color: black;
     font-family: 'Francois One';
   }
   
-  #formulario #login {
+ #logar {
     position: absolute;
     border: none;
     border-radius: 5px;
     width: 160px;
     height: 63px;
     left: 320px;
-    margin-top: 120px;
+    margin-top: 250px;
     background: #374834;
     font-family: 'Francois One';
     font-style: normal;
@@ -85,3 +89,8 @@
     color: #DAEDB3;
     text-decoration: none;
   }
+
+ #logar.dark-mode{
+  background: white;
+  color: black;
+ } 

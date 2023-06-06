@@ -69,3 +69,7 @@
     margin-top: -40px;
 
 }
+
+#dark-mode-toggle.dark-mode {
+    background: #426946;
+  }

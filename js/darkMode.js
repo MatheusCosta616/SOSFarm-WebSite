@@ -11,6 +11,9 @@ function toggleDarkMode() {
   const logoImage = document.querySelector('.logo');
   const txtInicial = document.querySelectorAll('.txtIncial');
   const titulos = document.querySelectorAll('#titulos');
+  const formulario = document.getElementById('formulario')
+  const loginDois = document.getElementById('')
+  const cadastro = document.getElementById('cadastro')
 
   // Adicione ou remova a classe 'dark-mode' no elemento body
   body.classList.toggle('dark-mode');
@@ -21,17 +24,21 @@ function toggleDarkMode() {
 
   // Atualize o texto do botão com base no estado do modo escuro
   if (isDarkMode) {
-    darkModeToggle.textContent = 'Desativar modo escuro';
+    darkModeToggle.innerHTML = '<img id="iconDark" src="../img/lua.png" alt="Ícone Modo Escuro">';
     boxes.forEach((box) => box.classList.add('dark-mode'));
+    darkModeToggle.classList.add('dark-mode')
     menuLogo.forEach((logo) => logo.classList.add('dark-mode'));
     subMenu.forEach((submenu) => submenu.classList.add('dark-mode'));
     loginBtn.classList.add('dark-mode');
     logoImage.setAttribute('src', '../img/Logo2.png');
     txtInicial.forEach((txt) => txt.classList.add('dark-mode'));
     titulos.forEach((titulo) => titulo.classList.add('dark-mode'));
+    formulario.classList.add('dark-mode');
+    cadastro.classList.add('dark-mode')
     alert('Dark mode ativado');
   } else {
-    darkModeToggle.textContent = 'Ativar modo escuro';
+    darkModeToggle.innerHTML = '<img id="iconDark" src="../img/sol.png" alt="Ícone Modo Escuro">';
+    darkModeToggle.classList.remove('dark-mode')
     boxes.forEach((box) => box.classList.remove('dark-mode'));
     menuLogo.forEach((logo) => logo.classList.remove('dark-mode'));
     subMenu.forEach((submenu) => submenu.classList.remove('dark-mode'));
@@ -39,6 +46,8 @@ function toggleDarkMode() {
     logoImage.setAttribute('src', '../img/Logo.png');
     txtInicial.forEach((txt) => txt.classList.remove('dark-mode'));
     titulos.forEach((titulo) => titulo.classList.remove('dark-mode'));
+    formulario.classList.remove('dark-mode');
+    cadastro.classList.remove('dark-mode')
     alert('Dark mode desativado');
   }
 }
@@ -46,7 +55,7 @@ function toggleDarkMode() {
 // Verifique se o modo escuro está ativado ao carregar a página
 if (isDarkMode) {
   document.body.classList.add('dark-mode');
-  document.getElementById('dark-mode-toggle').textContent = 'Desativar modo escuro';
+  document.getElementById('dark-mode-toggle').innerHTML = '<img id="iconDark" src="../img/lua.png" alt="Ícone Modo Escuro">';
   const darkModeToggle = document.getElementById('dark-mode-toggle');
   darkModeToggle.classList.add('dark-mode');
   const boxes = document.querySelectorAll('.box');
@@ -63,6 +72,10 @@ if (isDarkMode) {
   txtInicial.forEach((txt) => txt.classList.add('dark-mode'));
   const titulos = document.querySelectorAll('#titulos');
   titulos.forEach((titulo) => titulo.classList.add('dark-mode'));
+  const formulario = document.getElementById('formulario')
+  formulario.classList.add('dark-mode');
+  const cadastro = document.getElementById('cadastro')
+  cadastro.classList.add('dark-mode')
 } else {
-  document.getElementById('dark-mode-toggle').textContent = 'Ativar modo escuro';
+  document.getElementById('dark-mode-toggle').innerHTML = '<img id="iconDark" src="../img/sol.png" alt="Ícone Modo Escuro">';
 }
